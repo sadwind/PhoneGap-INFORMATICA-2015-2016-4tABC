@@ -1,6 +1,6 @@
 <jsv-header>
-<button-header-left></button-header-left>
-    Inici
+    <button-header-left onclick="$JSView.back()">< Back</button-header-left>
+    Dia 1
     <button-header-right></button-header-right>
 </jsv-header>
 
@@ -8,34 +8,17 @@
 <jsv-content>
 
 	<div class="container">
-	
-		<!-- <h1 class="paddingFull10">Content View A</h1> -->
-		<h3 style="color:blue">Roma 2016</h3>
-		<h5>INS Numància 4t ESO </h5>
-
-		<p>Text de la pàgina 1</p>
-
-			<button class="bgYellow btn-centrat" onClick="$JSView.goToView('viewB')">Dia 1</button>
-			<button class="bgYellow btn-centrat" onClick="$JSView.goToView('viewC')">Dia 2</button>
-			<button class="bgYellow btn-centrat" onClick="$JSView.goToView('viewD')">Dia 3</button>
-			<button class="bgYellow btn-centrat" onClick="$JSView.goToView('viewE')">Dia 4</button>
-			<button class="bgYellow btn-centrat" onClick="$JSView.goToView('viewF')">Dia 5</button>
-			
-			
-			
-			<!-- Obrir un modal (A) ... és a dir, una finestra emergent -->
-			<!--
-			<button class="bgYellow btn-centrat" onClick="$JSView.openModal('modalA')">Modal A</button>
-			-->
-			
-			<!-- Això és un Button de Materializecss -->
-			<!--
-			<div style="display: block;margin-left: auto;margin-right: auto;" class="btn-centrat">
-				<a class="waves-effect waves-light btn-large"><i class="material-icons left">alarm</i>Materializecss</a>
-			<div>
-			-->
-			
-			
+    
+		<h1 class="paddingFull10">Dia 2</h1>
+		
+		<!-- aquí falta l'agenda i eks botons dels modals (activitats) -->
+		
+		
+		<button class="bgYellow btn-centrat" onClick="$JSView.goToView('viewA')">Inici</button>
+		
+		<!--
+			<button class="bgYellow btn-centrat" onClick="$JSView.goToView('viewC')">Mostrar Pàgina C</button>
+		-->	
 	</div>
-			
+	
 </jsv-content>
