@@ -6,20 +6,20 @@ window.addEventListener('load', function() {
 	
 	*/
     $JSView.declareView({ 
-        viewA: {
-            url: '/viewA',
-            template: 'views/viewA.html',
-            controller: 'viewA'
+        Inici: {
+            url: '/Inici',
+	            template: 'views/Inici.html',
+            controller: 'Inici'
         },
-        viewB: {
-            url: '/viewB',
-            template: 'views/viewB.html',
-            controller: 'viewB'
+        Diumenge: {
+            url: '/Diumenge',
+            template: 'views/Diumenge.html',
+            controller: 'Diumenge'
         },
-        viewC: {
-            url: '/viewC',
-            template: 'views/viewC.html',
-            controller: 'viewC'
+        Dilluns: {
+            url: '/Dilluns',
+            template: 'views/Dilluns.html',
+            controller: 'Dilluns'
         }
     });
      
